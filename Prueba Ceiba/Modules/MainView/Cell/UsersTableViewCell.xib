@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="120" id="KGk-i7-Jjw" customClass="UsersTableViewCell" customModule="Prueba_Ceiba" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre Dummy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LyN-ax-6IQ">
+                        <rect key="frame" x="16" y="16" width="288" height="24"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                        <color key="textColor" red="0.21960783" green="0.36470589040000001" blue="0.20000001789999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Telefono" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0XF-vu-3Ol">
+                        <rect key="frame" x="45" y="48" width="259" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eTQ-eu-bTi">
+                        <rect key="frame" x="45" y="74" width="259" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="phone.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="N9N-sv-vQZ">
+                        <rect key="frame" x="16" y="48.5" width="21" height="20"/>
+                        <color key="tintColor" red="0.21960783" green="0.36470589040000001" blue="0.20000001789999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="21" id="Kx0-aT-eEt"/>
+                            <constraint firstAttribute="height" constant="21" id="s6p-fM-Syg"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mail" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="VSo-Jl-O4d">
+                        <rect key="frame" x="16" y="78" width="21" height="18.5"/>
+                        <color key="tintColor" red="0.21960783" green="0.36470589040000001" blue="0.20000001789999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="21" id="56X-JB-Mmm"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="HCy-5Q-KVt"/>
+                            <constraint firstAttribute="height" constant="21" id="TSf-DZ-xrK"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="21" id="pxa-lU-Hf4"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="VSo-Jl-O4d" firstAttribute="leading" secondItem="N9N-sv-vQZ" secondAttribute="leading" id="9We-CP-lib"/>
+                    <constraint firstItem="N9N-sv-vQZ" firstAttribute="top" secondItem="LyN-ax-6IQ" secondAttribute="bottom" constant="8" symbolic="YES" id="JeA-i3-KkN"/>
+                    <constraint firstItem="VSo-Jl-O4d" firstAttribute="top" secondItem="N9N-sv-vQZ" secondAttribute="bottom" constant="8" symbolic="YES" id="KED-Aa-FWq"/>
+                    <constraint firstItem="0XF-vu-3Ol" firstAttribute="leading" secondItem="N9N-sv-vQZ" secondAttribute="trailing" constant="8" symbolic="YES" id="Rfz-kB-Qld"/>
+                    <constraint firstAttribute="trailing" secondItem="LyN-ax-6IQ" secondAttribute="trailing" constant="16" id="Sdg-55-j8e"/>
+                    <constraint firstItem="0XF-vu-3Ol" firstAttribute="top" secondItem="LyN-ax-6IQ" secondAttribute="bottom" constant="8" symbolic="YES" id="XhI-Ec-6lv"/>
+                    <constraint firstAttribute="trailing" secondItem="0XF-vu-3Ol" secondAttribute="trailing" constant="16" id="bDA-jW-cWt"/>
+                    <constraint firstItem="LyN-ax-6IQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="gZj-Xg-N5b"/>
+                    <constraint firstItem="LyN-ax-6IQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="hvE-E4-XUQ"/>
+                    <constraint firstItem="N9N-sv-vQZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="md9-M6-SZE"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="email" destination="eTQ-eu-bTi" id="GaG-2A-rs2"/>
+                <outlet property="name" destination="LyN-ax-6IQ" id="Kul-eD-yVn"/>
+                <outlet property="phone" destination="0XF-vu-3Ol" id="tMn-E4-0UX"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="165.40178571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="mail" catalog="system" width="128" height="93"/>
+        <image name="phone.circle" catalog="system" width="128" height="121"/>
+    </resources>
+</document>
