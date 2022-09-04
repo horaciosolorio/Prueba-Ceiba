@@ -7,8 +7,7 @@
 
 import Foundation
 
-
 struct Post: Decodable {
     let title: String?
-    let body:  String?
+    let body: String?
 }

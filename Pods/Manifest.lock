@@ -2,19 +2,23 @@ PODS:
   - KRActivityIndicatorView (3.0.7)
   - KRProgressHUD (3.4.7):
     - KRActivityIndicatorView (= 3.0.7)
+  - SwiftLint (0.49.1)
 
 DEPENDENCIES:
   - KRProgressHUD
+  - SwiftLint
 
 SPEC REPOS:
   trunk:
     - KRActivityIndicatorView
     - KRProgressHUD
+    - SwiftLint
 
 SPEC CHECKSUMS:
   KRActivityIndicatorView: ad69e89c4ce40c986cf580595be4829dcad0e35a
   KRProgressHUD: a248f0bc6c9c2aed40a37b76e03ffecc7f85c887
+  SwiftLint: 32ee33ded0636d0905ef6911b2b67bbaeeedafa5
 
-PODFILE CHECKSUM: d35b1e45d17dd2f63ebcdd794eb0829c4ee55939
+PODFILE CHECKSUM: 168d365854e6206377f696b0cfdb86aba93e7152
 
 COCOAPODS: 1.11.3

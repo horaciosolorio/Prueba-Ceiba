@@ -12,9 +12,9 @@ class UsersTableViewCell: UITableViewCell {
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var phone: UILabel!
     @IBOutlet weak var email: UILabel!
-    
+
     var id = 0
-    
+
     override func awakeFromNib() {
         super.awakeFromNib()
     }
@@ -25,10 +25,7 @@ class UsersTableViewCell: UITableViewCell {
         email.text = "\(user.email ?? "")"
         id = user.id ?? 0
     }
-    
-    
+
     @IBAction func openPosts(_ sender: Any) {
-        
     }
-    
 }

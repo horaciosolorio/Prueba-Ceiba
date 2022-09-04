@@ -75,11 +75,14 @@ extension KRProgressHUD {
               completion: CompletionHandler? = nil) {
         DispatchQueue.main.async { [unowned self] in
             self.applyStyles()
-            self.updateLayouts(message: message, iconType: iconType, image: image, imageSize: imageSize, isOnlyText: isOnlyText)
+            self.updateLayouts(message: message, iconType: iconType,
+                               image: image, imageSize: imageSize, isOnlyText: isOnlyText)
             self.isLoading = isLoading
 
             if let graceTime = self.graceTime, graceTime > 0 {
-                let timer = Timer(timeInterval: graceTime, target: self, selector: #selector(self.handleGraceTimer), userInfo: nil, repeats: false)
+                let timer = Timer(
+                    timeInterval: graceTime, target: self,
+                    selector: #selector(self.handleGraceTimer), userInfo: nil, repeats: false)
                 RunLoop.current.add(timer, forMode: .common)
                 self.graceTimer = timer
             } else {
@@ -116,25 +119,36 @@ extension KRProgressHUD {
 
 extension KRProgressHUD {
     func setUpConstraints() {
-        hudViewCenterYConstraint = NSLayoutConstraint(item: hudView, attribute: .centerY, toItem: hudViewController.view, constant: viewOffset ?? viewAppearance.viewOffset)
+        hudViewCenterYConstraint = NSLayoutConstraint(
+            item: hudView, attribute: .centerY, toItem: hudViewController.view,
+            constant: viewOffset ?? viewAppearance.viewOffset)
         hudViewSideMarginConstraints += [
-            NSLayoutConstraint(item: hudView, attribute: .left, relatedBy: .greaterThanOrEqual, toItem: hudViewController.view, constant: hudViewMargin),
-            NSLayoutConstraint(item: hudView, attribute: .right, relatedBy: .lessThanOrEqual, toItem: hudViewController.view, constant: -hudViewMargin)
+            NSLayoutConstraint(item: hudView, attribute: .left, relatedBy: .greaterThanOrEqual,
+                               toItem: hudViewController.view, constant: hudViewMargin),
+            NSLayoutConstraint(item: hudView, attribute: .right, relatedBy: .lessThanOrEqual,
+                               toItem: hudViewController.view, constant: -hudViewMargin)
         ]
 
         iconViewConstraints += [
             NSLayoutConstraint(item: iconView, attribute: .top, toItem: hudView, constant: hudViewPadding),
             NSLayoutConstraint(item: iconView, attribute: .centerX, toItem: hudView),
-            NSLayoutConstraint(item: iconView, attribute: .left, relatedBy: .greaterThanOrEqual, toItem: hudView, constant: hudViewPadding),
-            NSLayoutConstraint(item: iconView, attribute: .right, relatedBy: .lessThanOrEqual, toItem: hudView, constant: -hudViewPadding),
-            NSLayoutConstraint(item: iconView, attribute: .bottom, relatedBy: .lessThanOrEqual, toItem: hudView, constant: -hudViewPadding)
+            NSLayoutConstraint(item: iconView, attribute: .left,
+                               relatedBy: .greaterThanOrEqual, toItem: hudView, constant: hudViewPadding),
+            NSLayoutConstraint(item: iconView, attribute: .right, relatedBy: .lessThanOrEqual,
+                               toItem: hudView, constant: -hudViewPadding),
+            NSLayoutConstraint(item: iconView, attribute: .bottom, relatedBy: .lessThanOrEqual,
+                               toItem: hudView, constant: -hudViewPadding)
         ]
 
-        messageLabelMinWidthConstraint = NSLayoutConstraint(item: messageLabel, attribute: .width, relatedBy: .greaterThanOrEqual, constant: messageLabelMinWidth)
+        messageLabelMinWidthConstraint = NSLayoutConstraint(
+            item: messageLabel, attribute: .width,
+            relatedBy: .greaterThanOrEqual, constant: messageLabelMinWidth)
         messageLabelConstraints += [
             messageLabelMinWidthConstraint,
-            NSLayoutConstraint(item: messageLabel, attribute: .top, toItem: iconView, attribute: .bottom, constant: messageLabelTopMargin),
-            NSLayoutConstraint(item: messageLabel, attribute: .top, relatedBy: .greaterThanOrEqual, toItem: hudView, constant: hudViewPadding),
+            NSLayoutConstraint(item: messageLabel, attribute: .top,
+                               toItem: iconView, attribute: .bottom, constant: messageLabelTopMargin),
+            NSLayoutConstraint(item: messageLabel, attribute: .top, relatedBy: .greaterThanOrEqual,
+                               toItem: hudView, constant: hudViewPadding),
             NSLayoutConstraint(item: messageLabel, attribute: .left, toItem: hudView, constant: hudViewPadding),
             NSLayoutConstraint(item: messageLabel, attribute: .right, toItem: hudView, constant: -hudViewPadding),
             NSLayoutConstraint(item: messageLabel, attribute: .bottom, toItem: hudView, constant: -hudViewPadding)
@@ -240,7 +254,8 @@ extension KRProgressHUD {
         messageLabelConstraints.forEach { $0.isActive = true }
     }
 
-    func updateLayouts(message: String?, iconType: KRProgressHUDIconType?, image: UIImage?, imageSize: CGSize?, isOnlyText: Bool) {
+    func updateLayouts(message: String?, iconType: KRProgressHUDIconType?,
+                       image: UIImage?, imageSize: CGSize?, isOnlyText: Bool) {
         resetLayouts()
         messageLabel.text = message
 
@@ -264,7 +279,8 @@ extension KRProgressHUD {
         case (nil, let image):
             imageView.isHidden = false
             let size = imageSize ?? image!.size
-            imageView.contentMode = size.width < imageView.bounds.width && size.height < imageView.bounds.height ? .center : .scaleAspectFit
+            imageView.contentMode = size.width < imageView.bounds.width
+            && size.height < imageView.bounds.height ? .center : .scaleAspectFit
             imageView.image = image
 
         case (let iconType, _):

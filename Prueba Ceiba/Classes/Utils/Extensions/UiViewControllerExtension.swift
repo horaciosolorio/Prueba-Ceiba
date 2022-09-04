@@ -8,7 +8,7 @@
 import UIKit
 
 extension UIViewController {
-    
+
     func presentSelector(_ viewController: UIViewController, animated: Bool, completion: (() -> Void)?) {
         dismissKeyboard()
         viewController.view.backgroundColor = UIColor.init(white: 0.4, alpha: 0.8)
@@ -17,7 +17,7 @@ extension UIViewController {
                 animated: true,
                 completion: completion)
     }
-    
+
     @objc func dismissKeyboard() {
         UIApplication.shared.sendAction(
             #selector(UIApplication.resignFirstResponder),

@@ -3,16 +3,15 @@ import Alamofire
 import UIKit
 
 final class UserDetailIteractor: UserDetailInteractorInputProtocol {
-    
+
     weak var presenter: (UserDetailInteractorOutputProtocol & UserDetailPresenterProtocol)?
-    
+
     var userId = 0
 
     func viewDidAppear() {
-        
+
         let detailUrl = "https://jsonplaceholder.typicode.com/posts?userId=\(userId)"
-        
-        
+
         AF.request(detailUrl,
                method: .get,
                parameters: nil,
@@ -20,14 +19,13 @@ final class UserDetailIteractor: UserDetailInteractorInputProtocol {
             )
         .responseDecodable { (response: DataResponse<[Post], AFError>) in
             switch response.result {
-                case .success(let posts):
-                    print("Recieved users: \(posts)")
+            case .success(let posts):
+                print("Recieved users: \(posts)")
                 self.presenter?.obtainedPosts(posts: posts)
-                case .failure(let error):
-                    print("Failed with error: \(error)")
-                }
+            case .failure(let error):
+                print("Failed with error: \(error)")
+            }
         }
-        
     }
 
 }

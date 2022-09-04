@@ -6,7 +6,4 @@ final class MainRouter: MainRouterProtocol {
         guard let userDetail =  UserDetailBuilder.build(with: userId) else { return }
         view.show(userDetail, sender: .none)
     }
-        
-    
-    
 }

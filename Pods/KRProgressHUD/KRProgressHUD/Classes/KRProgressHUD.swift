@@ -81,7 +81,8 @@ public final class KRProgressHUD {
         public var duration = Double(1.0)
 
         @available(*, deprecated, message: "Use activityIndicatorColors")
-        public var activityIndicatorStyle = KRActivityIndicatorViewStyle.gradationColor(head: .black, tail: .lightGray) {
+        public var activityIndicatorStyle = KRActivityIndicatorViewStyle.gradationColor(
+            head: .black, tail: .lightGray) {
             didSet { activityIndicatorColors = [activityIndicatorStyle.headColor, activityIndicatorStyle.tailColor] }
         }
         @available(*, renamed: "duration")
@@ -249,7 +250,8 @@ extension KRProgressHUD {
     }
 
     @available(*, deprecated, message: "Use set(activityIndicatorViewColors:)")
-    @discardableResult public static func set(activityIndicatorViewStyle style: KRActivityIndicatorViewStyle) -> KRProgressHUD.Type {
+    @discardableResult public static func set(
+        activityIndicatorViewStyle style: KRActivityIndicatorViewStyle) -> KRProgressHUD.Type {
         shared.activityIndicatorColors = [style.headColor, style.tailColor]
         return KRProgressHUD.self
     }

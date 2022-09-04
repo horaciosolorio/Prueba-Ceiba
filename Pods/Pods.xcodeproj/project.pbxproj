@@ -6,42 +6,61 @@
 	objectVersion = 55;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		0231BF88DE78D1AF701640162F641EF1 /* KRActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A99A4E9B3D5464F2EB052185AE0DB92 /* KRActivityIndicatorView.swift */; };
+		0231BF88DE78D1AF701640162F641EF1 /* KRActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831F0A47097CBB879ACA0C7DC9C2140C /* KRActivityIndicatorView.swift */; };
 		227F575C7A4BA4B60D7CED084C9B4A3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		32DAFD5267320A0E445C44D5B0A8A3E6 /* KRActivityIndicatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EB08ED54AEB1E3E9E26E519621F36F /* KRActivityIndicatorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4350613E36E3A6E602EB296A88A4DE8B /* Pods-Prueba Ceiba-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22861347535FD73554C7141CCEAB86DA /* Pods-Prueba Ceiba-dummy.m */; };
-		5BF5CE60210BA63B24F47DA85DB6D541 /* KRProgressHUDIconType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C75CEB32604D90628A8BADDC47196FB /* KRProgressHUDIconType.swift */; };
-		5EDD32C82B9EE160E6615CEAEFCA1A15 /* KRProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F54FCEBD5646F9209D22D0FEA9419E /* KRProgressHUD.swift */; };
-		664296435583DFE0E7F51D03A05D5E46 /* KRActivityIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 414BB8BB79A61C51CA21252C85CF4443 /* KRActivityIndicatorView-dummy.m */; };
-		92418685B4FF082C77AABC744DC3FF2D /* Pods-Prueba Ceiba-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35D83A731A23E549BDB71A5CAABAA93D /* Pods-Prueba Ceiba-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9562C0AF073384BE695415152FB5625C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		9B527DB69280CF80AABF664A88202E84 /* KRProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E70566F6AA938658E7C92C8C57250D07 /* KRProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A59645A7884F87BA5BF6AB93E688901B /* InnerKRProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B122525E27BFF2D769E6EE8C8422D05 /* InnerKRProgressHUD.swift */; };
+		32DAFD5267320A0E445C44D5B0A8A3E6 /* KRActivityIndicatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC260FF93BFB717760F5B9399BD3DF4D /* KRActivityIndicatorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BF5CE60210BA63B24F47DA85DB6D541 /* KRProgressHUDIconType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1019E59E97A768F8DEEC97DAB581B696 /* KRProgressHUDIconType.swift */; };
+		5EDD32C82B9EE160E6615CEAEFCA1A15 /* KRProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640EB55BE5BF841A3522616AD6143729 /* KRProgressHUD.swift */; };
+		664296435583DFE0E7F51D03A05D5E46 /* KRActivityIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB4253D0133733F1C513BD0FCE1A5CA /* KRActivityIndicatorView-dummy.m */; };
+		69263AA41D041FD6A18DDB145B5D8294 /* Pods-Prueba Ceiba-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35D83A731A23E549BDB71A5CAABAA93D /* Pods-Prueba Ceiba-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B527DB69280CF80AABF664A88202E84 /* KRProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C407BC1FCE10C088A28F65CC7FA137E /* KRProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A59645A7884F87BA5BF6AB93E688901B /* InnerKRProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2692E6443721D8D99F0A202FBD7E04B5 /* InnerKRProgressHUD.swift */; };
 		C21ED0B4C9C617089241298BB41D2BF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		DFB95248137010B96366E1E49B8221CE /* KRActivityIndicatorViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C4BB58463995636C6627189C7A8E6B /* KRActivityIndicatorViewStyle.swift */; };
-		E5734FE2E4663F4C9E7ED8CECC38D2F2 /* KRProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC97E841C6BD042A7B9A9E6422CD64A /* KRProgressHUD-dummy.m */; };
-		EA9307BFC6EC7DB48CC7944D87102096 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560A1D20048DDD783FCE6ECB69F6089E /* Extensions.swift */; };
-		EE468DF777E82A8AB41ED7D7289B9B9C /* KRProgressHUDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6CDAF6BD46393D72B841F65C12FC7D /* KRProgressHUDViewController.swift */; };
-		F5C7CECF1E3E73AFEC9547F5AAA24730 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB993BB47D9687A3C1D6237069B52F4 /* Extensions.swift */; };
+		D2BEFE1DF14C6981EC4014D83003C2A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DFB95248137010B96366E1E49B8221CE /* KRActivityIndicatorViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB45D9F03044D14196C5225215CE4E72 /* KRActivityIndicatorViewStyle.swift */; };
+		E5734FE2E4663F4C9E7ED8CECC38D2F2 /* KRProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F75CDF457EFA46BBE3CC7A3B2972DC22 /* KRProgressHUD-dummy.m */; };
+		EA9307BFC6EC7DB48CC7944D87102096 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BC09A28AF0387C4BFDA6C3DE93C2E9 /* Extensions.swift */; };
+		EE468DF777E82A8AB41ED7D7289B9B9C /* KRProgressHUDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C8B1FCF5BAA0B048420BEF985329F6 /* KRProgressHUDViewController.swift */; };
+		F5C7CECF1E3E73AFEC9547F5AAA24730 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58455CA1DF8EEDD9A3115EC3A195EB95 /* Extensions.swift */; };
+		FF88D007D795CB50E85FA41B79EA98BE /* Pods-Prueba Ceiba-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22861347535FD73554C7141CCEAB86DA /* Pods-Prueba Ceiba-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0AFDAA5C832E3A39D95B48AF72722D09 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4F7A1E5A05AF87570E2873C5F725E2CB;
-			remoteInfo = KRActivityIndicatorView;
-		};
-		DC51A1289A950B58267FF596D8284B1E /* PBXContainerItemProxy */ = {
+		0FCBFAB4731DFDAD574D08B8938B9CD6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BA4681533D6AA601F9C9E2A116B7472C;
 			remoteInfo = KRProgressHUD;
 		};
-		FE875EFE1A047E1153E7AE9C2D1CD1C1 /* PBXContainerItemProxy */ = {
+		8A6E62D09B4D2495DD521D42319059B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F7A1E5A05AF87570E2873C5F725E2CB;
+			remoteInfo = KRActivityIndicatorView;
+		};
+		989BC33A6055A79E4AFEAC77BEA86A14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		CFAC3091A80410DC6FBCB315BD8B3C89 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -52,52 +71,46 @@
 
 /* Begin PBXFileReference section */
 		015D538A2432DEBC0EC1986EC455587C /* Pods-Prueba Ceiba.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Prueba Ceiba.debug.xcconfig"; sourceTree = "<group>"; };
-		060E2BC1605AF50B7BAE484282D72753 /* KRActivityIndicatorView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRActivityIndicatorView.release.xcconfig; sourceTree = "<group>"; };
-		0A99A4E9B3D5464F2EB052185AE0DB92 /* KRActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRActivityIndicatorView.swift; path = KRActivityIndicatorView/Classes/KRActivityIndicatorView.swift; sourceTree = "<group>"; };
-		0B6CDAF6BD46393D72B841F65C12FC7D /* KRProgressHUDViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRProgressHUDViewController.swift; path = KRProgressHUD/Classes/KRProgressHUDViewController.swift; sourceTree = "<group>"; };
+		02AD8E54B1E9B89E82B8A09FCB868EA1 /* KRActivityIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KRActivityIndicatorView.modulemap; sourceTree = "<group>"; };
+		0613D39834E1B01B04944DA2A61CA2BE /* KRActivityIndicatorView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRActivityIndicatorView.debug.xcconfig; sourceTree = "<group>"; };
+		0C327D27C3B44CD9C017E5542F1505DC /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
+		1019E59E97A768F8DEEC97DAB581B696 /* KRProgressHUDIconType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRProgressHUDIconType.swift; path = KRProgressHUD/Classes/KRProgressHUDIconType.swift; sourceTree = "<group>"; };
 		1C33CB84138510317C9CFF8E19C47C23 /* KRProgressHUD */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KRProgressHUD; path = KRProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C75CEB32604D90628A8BADDC47196FB /* KRProgressHUDIconType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRProgressHUDIconType.swift; path = KRProgressHUD/Classes/KRProgressHUDIconType.swift; sourceTree = "<group>"; };
 		22861347535FD73554C7141CCEAB86DA /* Pods-Prueba Ceiba-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Prueba Ceiba-dummy.m"; sourceTree = "<group>"; };
-		2DCEB1FCAB0F71B49BD35DF1E2A04084 /* KRProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
-		33F54FCEBD5646F9209D22D0FEA9419E /* KRProgressHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRProgressHUD.swift; path = KRProgressHUD/Classes/KRProgressHUD.swift; sourceTree = "<group>"; };
+		24BC09A28AF0387C4BFDA6C3DE93C2E9 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = KRActivityIndicatorView/Classes/Extensions.swift; sourceTree = "<group>"; };
+		2692E6443721D8D99F0A202FBD7E04B5 /* InnerKRProgressHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InnerKRProgressHUD.swift; path = KRProgressHUD/Classes/InnerKRProgressHUD.swift; sourceTree = "<group>"; };
+		303CE387F055ACFF7721824BE53A0F79 /* KRProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		3286294F1334320A7890928F4A90A1D2 /* KRActivityIndicatorView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRActivityIndicatorView.release.xcconfig; sourceTree = "<group>"; };
 		35D83A731A23E549BDB71A5CAABAA93D /* Pods-Prueba Ceiba-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Prueba Ceiba-umbrella.h"; sourceTree = "<group>"; };
 		3DB2F131CF09B4F0F0579467259097F4 /* Pods-Prueba Ceiba-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Prueba Ceiba-Info.plist"; sourceTree = "<group>"; };
 		4020040898D8213938F14AF2F3406F21 /* Pods-Prueba Ceiba.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Prueba Ceiba.release.xcconfig"; sourceTree = "<group>"; };
-		414BB8BB79A61C51CA21252C85CF4443 /* KRActivityIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KRActivityIndicatorView-dummy.m"; sourceTree = "<group>"; };
-		4B122525E27BFF2D769E6EE8C8422D05 /* InnerKRProgressHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InnerKRProgressHUD.swift; path = KRProgressHUD/Classes/InnerKRProgressHUD.swift; sourceTree = "<group>"; };
-		4C3E062D725052AA8F9D84A175A52D7F /* KRActivityIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRActivityIndicatorView-prefix.pch"; sourceTree = "<group>"; };
-		4FB4A2477C160594FBE3991CB951846E /* KRProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		502664051E61FE8CE444105373CE0AE1 /* Pods-Prueba Ceiba */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Prueba Ceiba"; path = Pods_Prueba_Ceiba.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		560A1D20048DDD783FCE6ECB69F6089E /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = KRActivityIndicatorView/Classes/Extensions.swift; sourceTree = "<group>"; };
 		564201D5E27282BA8F9E5A3DA79CBD17 /* Pods-Prueba Ceiba-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Prueba Ceiba-acknowledgements.markdown"; sourceTree = "<group>"; };
-		61B899D006E0ED2E36BE59CAEFC00F4A /* KRProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KRProgressHUD.modulemap; sourceTree = "<group>"; };
-		6FC97E841C6BD042A7B9A9E6422CD64A /* KRProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KRProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		58455CA1DF8EEDD9A3115EC3A195EB95 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = KRProgressHUD/Classes/Extensions.swift; sourceTree = "<group>"; };
+		5C407BC1FCE10C088A28F65CC7FA137E /* KRProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		640EB55BE5BF841A3522616AD6143729 /* KRProgressHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRProgressHUD.swift; path = KRProgressHUD/Classes/KRProgressHUD.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		73C4BB58463995636C6627189C7A8E6B /* KRActivityIndicatorViewStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRActivityIndicatorViewStyle.swift; path = KRActivityIndicatorView/Classes/KRActivityIndicatorViewStyle.swift; sourceTree = "<group>"; };
-		88EB08ED54AEB1E3E9E26E519621F36F /* KRActivityIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRActivityIndicatorView-umbrella.h"; sourceTree = "<group>"; };
+		7879AC09B8D8FF1FEEE6CD74BD2BCCCD /* KRProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KRProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		7B45F11941265C6869DB66C1F5E9E9C7 /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
+		831F0A47097CBB879ACA0C7DC9C2140C /* KRActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRActivityIndicatorView.swift; path = KRActivityIndicatorView/Classes/KRActivityIndicatorView.swift; sourceTree = "<group>"; };
+		8B242C17A6ECE00C06B59312DBF013A0 /* KRProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KRProgressHUD.modulemap; sourceTree = "<group>"; };
+		8C7E7D176D740336E71D90A88D9FF1C9 /* KRProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
 		9258ECC23A4C8B0274C7A6DF69DDFE95 /* KRActivityIndicatorView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KRActivityIndicatorView; path = KRActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B10C4EB8C649E4C51E2D5E8E64C5DCEF /* KRProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		B44860360A6F76B2E2443E79C8D04D23 /* KRProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRProgressHUD.release.xcconfig; sourceTree = "<group>"; };
 		C8CA6930D80A86E1A6A3264C909A2C78 /* Pods-Prueba Ceiba-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Prueba Ceiba-acknowledgements.plist"; sourceTree = "<group>"; };
 		CAB414EF3F64CC5A0FD109826F796999 /* Pods-Prueba Ceiba.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Prueba Ceiba.modulemap"; sourceTree = "<group>"; };
-		CAB993BB47D9687A3C1D6237069B52F4 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = KRProgressHUD/Classes/Extensions.swift; sourceTree = "<group>"; };
-		D38BD5D563142CB0EB3423C427A29D2B /* KRActivityIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KRActivityIndicatorView.modulemap; sourceTree = "<group>"; };
-		E26F1B8E4365B99C12B7C96267D1D221 /* KRProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KRProgressHUD-Info.plist"; sourceTree = "<group>"; };
-		E283FD1CD0043F1600792133F91E9DAA /* KRActivityIndicatorView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KRActivityIndicatorView-Info.plist"; sourceTree = "<group>"; };
-		E3A74383EA15AE7F3F651591E3766166 /* KRActivityIndicatorView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRActivityIndicatorView.debug.xcconfig; sourceTree = "<group>"; };
-		E70566F6AA938658E7C92C8C57250D07 /* KRProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		CC1FC7647FAF3030632EAF85AA350C8F /* KRActivityIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRActivityIndicatorView-prefix.pch"; sourceTree = "<group>"; };
+		CC260FF93BFB717760F5B9399BD3DF4D /* KRActivityIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRActivityIndicatorView-umbrella.h"; sourceTree = "<group>"; };
+		D8C8B1FCF5BAA0B048420BEF985329F6 /* KRProgressHUDViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRProgressHUDViewController.swift; path = KRProgressHUD/Classes/KRProgressHUDViewController.swift; sourceTree = "<group>"; };
+		DDB4253D0133733F1C513BD0FCE1A5CA /* KRActivityIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KRActivityIndicatorView-dummy.m"; sourceTree = "<group>"; };
+		E9049BFA121C105719EE5BD29198DBCF /* KRActivityIndicatorView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KRActivityIndicatorView-Info.plist"; sourceTree = "<group>"; };
+		F75CDF457EFA46BBE3CC7A3B2972DC22 /* KRProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KRProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		FB45D9F03044D14196C5225215CE4E72 /* KRActivityIndicatorViewStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRActivityIndicatorViewStyle.swift; path = KRActivityIndicatorView/Classes/KRActivityIndicatorViewStyle.swift; sourceTree = "<group>"; };
 		FE9CBC1D0DE064B9A340FA04F585FDE7 /* Pods-Prueba Ceiba-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Prueba Ceiba-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5C40BE18BEF43A75F3815DCB722FE0CB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9562C0AF073384BE695415152FB5625C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8AB39F144A72F040D2C21D2F2A3CA138 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -114,6 +127,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CA9D72FA2B5A0E16F1A161DA97372801 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2BEFE1DF14C6981EC4014D83003C2A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -125,36 +146,6 @@
 				502664051E61FE8CE444105373CE0AE1 /* Pods-Prueba Ceiba */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		0F22B5464A68FF5D2FD77F31950A541F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				61B899D006E0ED2E36BE59CAEFC00F4A /* KRProgressHUD.modulemap */,
-				6FC97E841C6BD042A7B9A9E6422CD64A /* KRProgressHUD-dummy.m */,
-				E26F1B8E4365B99C12B7C96267D1D221 /* KRProgressHUD-Info.plist */,
-				4FB4A2477C160594FBE3991CB951846E /* KRProgressHUD-prefix.pch */,
-				E70566F6AA938658E7C92C8C57250D07 /* KRProgressHUD-umbrella.h */,
-				2DCEB1FCAB0F71B49BD35DF1E2A04084 /* KRProgressHUD.debug.xcconfig */,
-				B10C4EB8C649E4C51E2D5E8E64C5DCEF /* KRProgressHUD.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/KRProgressHUD";
-			sourceTree = "<group>";
-		};
-		133DDD66449356413513E9B2C8FDA187 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D38BD5D563142CB0EB3423C427A29D2B /* KRActivityIndicatorView.modulemap */,
-				414BB8BB79A61C51CA21252C85CF4443 /* KRActivityIndicatorView-dummy.m */,
-				E283FD1CD0043F1600792133F91E9DAA /* KRActivityIndicatorView-Info.plist */,
-				4C3E062D725052AA8F9D84A175A52D7F /* KRActivityIndicatorView-prefix.pch */,
-				88EB08ED54AEB1E3E9E26E519621F36F /* KRActivityIndicatorView-umbrella.h */,
-				E3A74383EA15AE7F3F651591E3766166 /* KRActivityIndicatorView.debug.xcconfig */,
-				060E2BC1605AF50B7BAE484282D72753 /* KRActivityIndicatorView.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/KRActivityIndicatorView";
 			sourceTree = "<group>";
 		};
 		27BAC6CCF1ACCA959CA63FC963BDBC56 /* Pods-Prueba Ceiba */ = {
@@ -174,13 +165,27 @@
 			path = "Target Support Files/Pods-Prueba Ceiba";
 			sourceTree = "<group>";
 		};
-		4D4FFA5A8CE6953C028B41D162567DFC /* Pods */ = {
+		2EC9BEB37F5E2E213D8F69623BFC1440 /* KRProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				F5B2CC27A49597D41ED40EC87B858C2E /* KRActivityIndicatorView */,
-				C63A58090CDDA2C6CEE1387D654E0EA1 /* KRProgressHUD */,
+				58455CA1DF8EEDD9A3115EC3A195EB95 /* Extensions.swift */,
+				2692E6443721D8D99F0A202FBD7E04B5 /* InnerKRProgressHUD.swift */,
+				640EB55BE5BF841A3522616AD6143729 /* KRProgressHUD.swift */,
+				1019E59E97A768F8DEEC97DAB581B696 /* KRProgressHUDIconType.swift */,
+				D8C8B1FCF5BAA0B048420BEF985329F6 /* KRProgressHUDViewController.swift */,
+				63A2F7045E0CEFCCECD2E32B092F46FE /* Support Files */,
 			);
-			name = Pods;
+			name = KRProgressHUD;
+			path = KRProgressHUD;
+			sourceTree = "<group>";
+		};
+		394FA0DA01BCF923D00C5EBD7E0F9CAA /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				C36E50369EDF58E5F9615B256E810AD2 /* Support Files */,
+			);
+			name = SwiftLint;
+			path = SwiftLint;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -191,6 +196,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		63A2F7045E0CEFCCECD2E32B092F46FE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B242C17A6ECE00C06B59312DBF013A0 /* KRProgressHUD.modulemap */,
+				F75CDF457EFA46BBE3CC7A3B2972DC22 /* KRProgressHUD-dummy.m */,
+				7879AC09B8D8FF1FEEE6CD74BD2BCCCD /* KRProgressHUD-Info.plist */,
+				303CE387F055ACFF7721824BE53A0F79 /* KRProgressHUD-prefix.pch */,
+				5C407BC1FCE10C088A28F65CC7FA137E /* KRProgressHUD-umbrella.h */,
+				8C7E7D176D740336E71D90A88D9FF1C9 /* KRProgressHUD.debug.xcconfig */,
+				B44860360A6F76B2E2443E79C8D04D23 /* KRProgressHUD.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KRProgressHUD";
+			sourceTree = "<group>";
+		};
 		93526B56BB12C386B1EAF9657B85A150 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,18 +219,39 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C63A58090CDDA2C6CEE1387D654E0EA1 /* KRProgressHUD */ = {
+		A9A670333FB65BF39ED88DE667B10632 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CAB993BB47D9687A3C1D6237069B52F4 /* Extensions.swift */,
-				4B122525E27BFF2D769E6EE8C8422D05 /* InnerKRProgressHUD.swift */,
-				33F54FCEBD5646F9209D22D0FEA9419E /* KRProgressHUD.swift */,
-				1C75CEB32604D90628A8BADDC47196FB /* KRProgressHUDIconType.swift */,
-				0B6CDAF6BD46393D72B841F65C12FC7D /* KRProgressHUDViewController.swift */,
-				0F22B5464A68FF5D2FD77F31950A541F /* Support Files */,
+				02AD8E54B1E9B89E82B8A09FCB868EA1 /* KRActivityIndicatorView.modulemap */,
+				DDB4253D0133733F1C513BD0FCE1A5CA /* KRActivityIndicatorView-dummy.m */,
+				E9049BFA121C105719EE5BD29198DBCF /* KRActivityIndicatorView-Info.plist */,
+				CC1FC7647FAF3030632EAF85AA350C8F /* KRActivityIndicatorView-prefix.pch */,
+				CC260FF93BFB717760F5B9399BD3DF4D /* KRActivityIndicatorView-umbrella.h */,
+				0613D39834E1B01B04944DA2A61CA2BE /* KRActivityIndicatorView.debug.xcconfig */,
+				3286294F1334320A7890928F4A90A1D2 /* KRActivityIndicatorView.release.xcconfig */,
 			);
-			name = KRProgressHUD;
-			path = KRProgressHUD;
+			name = "Support Files";
+			path = "../Target Support Files/KRActivityIndicatorView";
+			sourceTree = "<group>";
+		};
+		B6F2EC880676A3696AF3C17748665FBF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6DC28E3BBDDA87A756B59BD9B8AC018 /* KRActivityIndicatorView */,
+				2EC9BEB37F5E2E213D8F69623BFC1440 /* KRProgressHUD */,
+				394FA0DA01BCF923D00C5EBD7E0F9CAA /* SwiftLint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C36E50369EDF58E5F9615B256E810AD2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B45F11941265C6869DB66C1F5E9E9C7 /* SwiftLint.debug.xcconfig */,
+				0C327D27C3B44CD9C017E5542F1505DC /* SwiftLint.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -218,7 +259,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				4D4FFA5A8CE6953C028B41D162567DFC /* Pods */,
+				B6F2EC880676A3696AF3C17748665FBF /* Pods */,
 				02AB87F1B7A50B1AD0CFA979CDFAA570 /* Products */,
 				93526B56BB12C386B1EAF9657B85A150 /* Targets Support Files */,
 			);
@@ -232,13 +273,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F5B2CC27A49597D41ED40EC87B858C2E /* KRActivityIndicatorView */ = {
+		D6DC28E3BBDDA87A756B59BD9B8AC018 /* KRActivityIndicatorView */ = {
 			isa = PBXGroup;
 			children = (
-				560A1D20048DDD783FCE6ECB69F6089E /* Extensions.swift */,
-				0A99A4E9B3D5464F2EB052185AE0DB92 /* KRActivityIndicatorView.swift */,
-				73C4BB58463995636C6627189C7A8E6B /* KRActivityIndicatorViewStyle.swift */,
-				133DDD66449356413513E9B2C8FDA187 /* Support Files */,
+				24BC09A28AF0387C4BFDA6C3DE93C2E9 /* Extensions.swift */,
+				831F0A47097CBB879ACA0C7DC9C2140C /* KRActivityIndicatorView.swift */,
+				FB45D9F03044D14196C5225215CE4E72 /* KRActivityIndicatorViewStyle.swift */,
+				A9A670333FB65BF39ED88DE667B10632 /* Support Files */,
 			);
 			name = KRActivityIndicatorView;
 			path = KRActivityIndicatorView;
@@ -255,6 +296,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		288928A93BE976B9288C697D1C953489 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69263AA41D041FD6A18DDB145B5D8294 /* Pods-Prueba Ceiba-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BB22DB93A9DCF37D720EEBA863F2A1BA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -263,31 +312,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FED5562A7480769EB91F7CFCC5FCA489 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				92418685B4FF082C77AABC744DC3FF2D /* Pods-Prueba Ceiba-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		07646B527810ABC4610BFA6F2B92E157 /* Pods-Prueba Ceiba */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D3AB6243D4CE76DF7F488FAF016BD471 /* Build configuration list for PBXNativeTarget "Pods-Prueba Ceiba" */;
+			buildConfigurationList = 225F5FE8C652584EC33BADF364840CDF /* Build configuration list for PBXNativeTarget "Pods-Prueba Ceiba" */;
 			buildPhases = (
-				FED5562A7480769EB91F7CFCC5FCA489 /* Headers */,
-				D9161B1AEC37C52D4283F22E88C56DDE /* Sources */,
-				5C40BE18BEF43A75F3815DCB722FE0CB /* Frameworks */,
-				BBA2FD325BCCEC9E085BEDA33E91E29E /* Resources */,
+				288928A93BE976B9288C697D1C953489 /* Headers */,
+				6F890570BD7066487C68F8B0202D0372 /* Sources */,
+				CA9D72FA2B5A0E16F1A161DA97372801 /* Frameworks */,
+				8517CF07224292F8C38728C62CF417F0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0E14288D5477DC121B7EAD67E7E33E79 /* PBXTargetDependency */,
-				71D34E633C06EC024D027CAD79E11D2F /* PBXTargetDependency */,
+				F1A9107D5FAA0198D628D27CB0BAE94A /* PBXTargetDependency */,
+				22C35F0A62F207BA612E54E59BC1E24C /* PBXTargetDependency */,
+				E125B09F9061EC30AC58F554227CF6C9 /* PBXTargetDependency */,
 			);
 			name = "Pods-Prueba Ceiba";
 			productName = Pods_Prueba_Ceiba;
@@ -324,7 +366,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				1C882B4CD295AA94BA1258D03431C76D /* PBXTargetDependency */,
+				05EF55140DB122826D03366F453D151D /* PBXTargetDependency */,
 			);
 			name = KRProgressHUD;
 			productName = KRProgressHUD;
@@ -356,6 +398,7 @@
 				4F7A1E5A05AF87570E2873C5F725E2CB /* KRActivityIndicatorView */,
 				BA4681533D6AA601F9C9E2A116B7472C /* KRProgressHUD */,
 				07646B527810ABC4610BFA6F2B92E157 /* Pods-Prueba Ceiba */,
+				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
 			);
 		};
 /* End PBXProject section */
@@ -368,14 +411,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90842901C6BA0BA008A60BD1AA069A01 /* Resources */ = {
+		8517CF07224292F8C38728C62CF417F0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BBA2FD325BCCEC9E085BEDA33E91E29E /* Resources */ = {
+		90842901C6BA0BA008A60BD1AA069A01 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -396,11 +439,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9161B1AEC37C52D4283F22E88C56DDE /* Sources */ = {
+		6F890570BD7066487C68F8B0202D0372 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4350613E36E3A6E602EB296A88A4DE8B /* Pods-Prueba Ceiba-dummy.m in Sources */,
+				FF88D007D795CB50E85FA41B79EA98BE /* Pods-Prueba Ceiba-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,30 +463,36 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0E14288D5477DC121B7EAD67E7E33E79 /* PBXTargetDependency */ = {
+		05EF55140DB122826D03366F453D151D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KRActivityIndicatorView;
 			target = 4F7A1E5A05AF87570E2873C5F725E2CB /* KRActivityIndicatorView */;
-			targetProxy = FE875EFE1A047E1153E7AE9C2D1CD1C1 /* PBXContainerItemProxy */;
+			targetProxy = CFAC3091A80410DC6FBCB315BD8B3C89 /* PBXContainerItemProxy */;
 		};
-		1C882B4CD295AA94BA1258D03431C76D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KRActivityIndicatorView;
-			target = 4F7A1E5A05AF87570E2873C5F725E2CB /* KRActivityIndicatorView */;
-			targetProxy = 0AFDAA5C832E3A39D95B48AF72722D09 /* PBXContainerItemProxy */;
-		};
-		71D34E633C06EC024D027CAD79E11D2F /* PBXTargetDependency */ = {
+		22C35F0A62F207BA612E54E59BC1E24C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KRProgressHUD;
 			target = BA4681533D6AA601F9C9E2A116B7472C /* KRProgressHUD */;
-			targetProxy = DC51A1289A950B58267FF596D8284B1E /* PBXContainerItemProxy */;
+			targetProxy = 0FCBFAB4731DFDAD574D08B8938B9CD6 /* PBXContainerItemProxy */;
+		};
+		E125B09F9061EC30AC58F554227CF6C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 989BC33A6055A79E4AFEAC77BEA86A14 /* PBXContainerItemProxy */;
+		};
+		F1A9107D5FAA0198D628D27CB0BAE94A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KRActivityIndicatorView;
+			target = 4F7A1E5A05AF87570E2873C5F725E2CB /* KRActivityIndicatorView */;
+			targetProxy = 8A6E62D09B4D2495DD521D42319059B7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		08D3CFCD697E35B31C18946FE494E1B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3A74383EA15AE7F3F651591E3766166 /* KRActivityIndicatorView.debug.xcconfig */;
+			baseConfigurationReference = 0613D39834E1B01B04944DA2A61CA2BE /* KRActivityIndicatorView.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -543,7 +592,7 @@
 		};
 		14394C310CB55A4531D35D3A9B3D7DC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DCEB1FCAB0F71B49BD35DF1E2A04084 /* KRProgressHUD.debug.xcconfig */;
+			baseConfigurationReference = 8C7E7D176D740336E71D90A88D9FF1C9 /* KRProgressHUD.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -639,7 +688,7 @@
 		};
 		2F55D1E7E4C9E701F0522643A3A6296D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 060E2BC1605AF50B7BAE484282D72753 /* KRActivityIndicatorView.release.xcconfig */;
+			baseConfigurationReference = 3286294F1334320A7890928F4A90A1D2 /* KRActivityIndicatorView.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -672,7 +721,42 @@
 			};
 			name = Release;
 		};
-		547974FB19658A230AD75CB0A62B3034 /* Release */ = {
+		596739A7B2B05C885EBCC4008D91750A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B44860360A6F76B2E2443E79C8D04D23 /* KRProgressHUD.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KRProgressHUD/KRProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KRProgressHUD/KRProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KRProgressHUD/KRProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = KRProgressHUD;
+				PRODUCT_NAME = KRProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8109D0CD7610ECCAB8E8C1C634145D8A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4020040898D8213938F14AF2F3406F21 /* Pods-Prueba Ceiba.release.xcconfig */;
 			buildSettings = {
@@ -710,42 +794,7 @@
 			};
 			name = Release;
 		};
-		596739A7B2B05C885EBCC4008D91750A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B10C4EB8C649E4C51E2D5E8E64C5DCEF /* KRProgressHUD.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KRProgressHUD/KRProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KRProgressHUD/KRProgressHUD-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/KRProgressHUD/KRProgressHUD.modulemap";
-				PRODUCT_MODULE_NAME = KRProgressHUD;
-				PRODUCT_NAME = KRProgressHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.3;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E50233D4F076FFB5693A7186D66873A6 /* Debug */ = {
+		9C0135A9D24DF6819331C0D431BFEBFA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 015D538A2432DEBC0EC1986EC455587C /* Pods-Prueba Ceiba.debug.xcconfig */;
 			buildSettings = {
@@ -782,9 +831,51 @@
 			};
 			name = Debug;
 		};
+		AD81E62ACCB0B7A923FC8AA288F9921E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C327D27C3B44CD9C017E5542F1505DC /* SwiftLint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B45F11941265C6869DB66C1F5E9E9C7 /* SwiftLint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		225F5FE8C652584EC33BADF364840CDF /* Build configuration list for PBXNativeTarget "Pods-Prueba Ceiba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C0135A9D24DF6819331C0D431BFEBFA /* Debug */,
+				8109D0CD7610ECCAB8E8C1C634145D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -794,20 +885,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */,
+				AD81E62ACCB0B7A923FC8AA288F9921E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CE46D50F7142469FB4F76946987DE8F0 /* Build configuration list for PBXNativeTarget "KRProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14394C310CB55A4531D35D3A9B3D7DC3 /* Debug */,
 				596739A7B2B05C885EBCC4008D91750A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D3AB6243D4CE76DF7F488FAF016BD471 /* Build configuration list for PBXNativeTarget "Pods-Prueba Ceiba" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E50233D4F076FFB5693A7186D66873A6 /* Debug */,
-				547974FB19658A230AD75CB0A62B3034 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

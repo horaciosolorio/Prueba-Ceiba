@@ -2,9 +2,9 @@ import Foundation
 import UIKit
 
 protocol MainInteractorInputProtocol: class {
-    
+
     var presenter: (MainPresenterProtocol & MainInteractorOutputProtocol)? {get set}
-    
+
     func viewDidAppear()
 }
 
@@ -20,12 +20,12 @@ protocol MainPresenterProtocol: class {
 
 protocol MainViewProtocol: class {
     var presenter: (MainPresenterProtocol & MainInteractorOutputProtocol)? {get set}
-    
+
     func showUsers(users: [User])
     func showEmptyResults()
 }
 
 protocol MainRouterProtocol: class {
     func goToUserDetail(from view: UIViewController, with userId: Int)
-    
+
 }

@@ -18,14 +18,14 @@ public enum KRActivityIndicatorViewStyle {
     public var headColor: UIColor {
         switch self {
         case let .color(color):  return color
-        case let .gradationColor(head: color, tail: _) :  return color
+        case let .gradationColor(head: color, tail: _):  return color
         }
     }
 
     public var tailColor: UIColor {
         switch self {
         case let .color(color):  return color
-        case let .gradationColor(head: _, tail: color) :  return color
+        case let .gradationColor(head: _, tail: color):  return color
         }
     }
 }

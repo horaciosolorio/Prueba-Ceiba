@@ -16,24 +16,23 @@ class LoaderViewController: UIViewController, LoaderControlProtocol {
         KRProgressHUD.set(font: font)
         KRProgressHUD.set(activityIndicatorViewColors: [.primary, .white])
     }
-    
+
     func showLoading(with message: String) {
         self.view.isUserInteractionEnabled = false
         KRProgressHUD.show(withMessage: message)
     }
-    
+
     func showLoading() {
         self.view.isUserInteractionEnabled = false
         KRProgressHUD.show(withMessage: "Cargando...")
     }
-    
+
     func stopLoading() {
         self.view.isUserInteractionEnabled = true
         KRProgressHUD.dismiss()
     }
-    
-}
 
+}
 
 protocol LoaderControlProtocol {
     func showLoading(with message: String)

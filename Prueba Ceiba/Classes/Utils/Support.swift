@@ -9,14 +9,15 @@ import Foundation
 import CoreData
 import UIKit
 
+// swiftlint:disable force_cast
 let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+// swiftlint:enable force_cast
 
 func saveContext() {
     if context.hasChanges {
         do {
             try context.save()
-        }
-        catch {
+        } catch {
             print(error)
         }
     }

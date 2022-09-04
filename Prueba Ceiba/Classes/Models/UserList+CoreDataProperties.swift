@@ -9,7 +9,6 @@
 import Foundation
 import CoreData
 
-
 extension UserList {
 
     @nonobjc public class func fetchRequest() -> NSFetchRequest<UserList> {

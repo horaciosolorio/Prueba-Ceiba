@@ -7,6 +7,7 @@ target 'Prueba Ceiba' do
 
   # Pods for Prueba Ceiba
   pod "KRProgressHUD"
+  pod 'SwiftLint'
 
 
 end

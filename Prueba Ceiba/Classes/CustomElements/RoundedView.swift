@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 class RoundedView: UIView {
-    
+
     // if cornerRadius variable is set/changed, change the corner radius of the UIView
     @IBInspectable var cornerRadius: CGFloat = 5 {
         didSet {
@@ -17,8 +17,8 @@ class RoundedView: UIView {
             layer.masksToBounds = cornerRadius > 0
         }
     }
-    
-    @IBInspectable var borderWidth: CGFloat = 0.0{
+
+    @IBInspectable var borderWidth: CGFloat = 0.0 {
         didSet {
             self.layer.borderWidth = borderWidth
         }
@@ -29,8 +29,8 @@ class RoundedView: UIView {
             self.layer.borderColor = borderColor.cgColor
         }
     }
-    
-    //Shadow
+
+    // Shadow
     @IBInspectable var shadowColor: UIColor = UIColor.black {
         didSet {
             self.updateView()
@@ -52,12 +52,11 @@ class RoundedView: UIView {
         }
     }
 
-    //Apply params
+    // Apply params
     func updateView() {
         self.layer.shadowColor = self.shadowColor.cgColor
         self.layer.shadowOpacity = self.shadowOpacity
         self.layer.shadowOffset = self.shadowOffset
         self.layer.shadowRadius = self.shadowRadius
     }
-    
 }
