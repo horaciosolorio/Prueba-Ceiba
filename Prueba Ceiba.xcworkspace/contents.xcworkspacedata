@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/horacio/Documents/Proyectos/Examenes/Prueba Ceiba/Prueba Ceiba/Classes/Models/UserList+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/horacio/Documents/Proyectos/Examenes/Prueba Ceiba/Prueba Ceiba/Classes/Models/UserList+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
       location = "group:Prueba Ceiba.xcodeproj">
    </FileRef>
    <FileRef

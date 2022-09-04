@@ -41,6 +41,10 @@
 		31899F8A28C3F95500EF7F7B /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31899F8828C3F95500EF7F7B /* PostTableViewCell.swift */; };
 		31899F8B28C3F95500EF7F7B /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31899F8928C3F95500EF7F7B /* PostTableViewCell.xib */; };
 		31899F8D28C3FC7100EF7F7B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31899F8C28C3FC7100EF7F7B /* Post.swift */; };
+		31899F9028C4461000EF7F7B /* PruebaCeiba.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 31899F8E28C4460F00EF7F7B /* PruebaCeiba.xcdatamodeld */; };
+		31899F9428C4548500EF7F7B /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31899F9328C4548500EF7F7B /* Support.swift */; };
+		31899FBA28C4630300EF7F7B /* UserList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31899FB928C4630300EF7F7B /* UserList+CoreDataProperties.swift */; };
+		31899FBB28C4630300EF7F7B /* UserList+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31899FB828C4630300EF7F7B /* UserList+CoreDataClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +82,10 @@
 		31899F8828C3F95500EF7F7B /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		31899F8928C3F95500EF7F7B /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
 		31899F8C28C3FC7100EF7F7B /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		31899F8F28C4461000EF7F7B /* list.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = list.xcdatamodel; sourceTree = "<group>"; };
+		31899F9328C4548500EF7F7B /* Support.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Support.swift; sourceTree = "<group>"; };
+		31899FB828C4630300EF7F7B /* UserList+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UserList+CoreDataClass.swift"; path = "/Users/horacio/Documents/Proyectos/Examenes/Prueba Ceiba/Prueba Ceiba/Classes/Models/UserList+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		31899FB928C4630300EF7F7B /* UserList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UserList+CoreDataProperties.swift"; path = "/Users/horacio/Documents/Proyectos/Examenes/Prueba Ceiba/Prueba Ceiba/Classes/Models/UserList+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
 		449D48E0C032734E9D2D1DB7 /* Pods_Prueba_Ceiba.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Prueba_Ceiba.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D6117AA0D8843BD8CD31E33 /* Pods-Prueba Ceiba.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prueba Ceiba.release.xcconfig"; path = "Target Support Files/Pods-Prueba Ceiba/Pods-Prueba Ceiba.release.xcconfig"; sourceTree = "<group>"; };
 		CE4E1970CBABE475AF330426 /* Pods-Prueba Ceiba.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prueba Ceiba.debug.xcconfig"; path = "Target Support Files/Pods-Prueba Ceiba/Pods-Prueba Ceiba.debug.xcconfig"; sourceTree = "<group>"; };
@@ -125,6 +133,7 @@
 				31899F3728C3B2B600EF7F7B /* Assets.xcassets */,
 				31899F3928C3B2B600EF7F7B /* LaunchScreen.storyboard */,
 				31899F3C28C3B2B600EF7F7B /* Info.plist */,
+				31899F8E28C4460F00EF7F7B /* PruebaCeiba.xcdatamodeld */,
 			);
 			path = "Prueba Ceiba";
 			sourceTree = "<group>";
@@ -166,6 +175,8 @@
 		31899F5128C3BA6900EF7F7B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				31899FB828C4630300EF7F7B /* UserList+CoreDataClass.swift */,
+				31899FB928C4630300EF7F7B /* UserList+CoreDataProperties.swift */,
 				31899F5228C3BA8900EF7F7B /* User.swift */,
 				31899F8C28C3FC7100EF7F7B /* Post.swift */,
 			);
@@ -245,6 +256,7 @@
 			isa = PBXGroup;
 			children = (
 				31899F8428C3E2BE00EF7F7B /* Extensions */,
+				31899F9328C4548500EF7F7B /* Support.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -415,13 +427,17 @@
 				31899F7028C3DE2D00EF7F7B /* ANCustomView.swift in Sources */,
 				31899F6328C3D6BD00EF7F7B /* UserDetailteractor.swift in Sources */,
 				31899F2F28C3B2B500EF7F7B /* AppDelegate.swift in Sources */,
+				31899FBB28C4630300EF7F7B /* UserList+CoreDataClass.swift in Sources */,
 				31899F6528C3D6BD00EF7F7B /* UserDetailProtocols.swift in Sources */,
 				31899F4F28C3B56100EF7F7B /* MainPresenter.swift in Sources */,
 				31899F5328C3BA8900EF7F7B /* User.swift in Sources */,
+				31899F9028C4461000EF7F7B /* PruebaCeiba.xcdatamodeld in Sources */,
+				31899F9428C4548500EF7F7B /* Support.swift in Sources */,
 				31899F7528C3DE2D00EF7F7B /* AlertLoaderViewController.swift in Sources */,
 				31899F8628C3E2DC00EF7F7B /* UiViewControllerExtension.swift in Sources */,
 				31899F7128C3DE2D00EF7F7B /* CustomTextField.swift in Sources */,
 				31899F6728C3D6BD00EF7F7B /* UserDetailRouter.swift in Sources */,
+				31899FBA28C4630300EF7F7B /* UserList+CoreDataProperties.swift in Sources */,
 				31899F6628C3D6BD00EF7F7B /* UserDetailViewController.swift in Sources */,
 				31899F4D28C3B56100EF7F7B /* MainBuilder.swift in Sources */,
 				31899F8D28C3FC7100EF7F7B /* Post.swift in Sources */,
@@ -669,6 +685,19 @@
 			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		31899F8E28C4460F00EF7F7B /* PruebaCeiba.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				31899F8F28C4461000EF7F7B /* list.xcdatamodel */,
+			);
+			currentVersion = 31899F8F28C4461000EF7F7B /* list.xcdatamodel */;
+			path = PruebaCeiba.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 31899F2328C3B2B500EF7F7B /* Project object */;
 }

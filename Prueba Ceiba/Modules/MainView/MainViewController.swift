@@ -6,7 +6,6 @@ class MainViewController: UIViewController , MainViewProtocol {
     
     var presenter: (MainInteractorOutputProtocol & MainPresenterProtocol)?
 
-
     @IBOutlet weak var tableView: UITableView!
     private var isLoading = true
     
