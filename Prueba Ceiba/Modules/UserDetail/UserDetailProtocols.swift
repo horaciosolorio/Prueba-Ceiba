@@ -1,7 +1,7 @@
 import Foundation
 import UIKit
 
-protocol UserDetailInteractorInputProtocol: class {
+protocol UserDetailInteractorInputProtocol: AnyObject {
     var presenter: (UserDetailPresenterProtocol & UserDetailInteractorOutputProtocol)? {get set}
     func viewDidAppear()
 }
@@ -11,17 +11,17 @@ protocol UserDetailInteractorOutputProtocol: LoaderControlProtocol, AlertProtoco
     func showEmptyResults()
 }
 
-protocol UserDetailPresenterProtocol: class {
+protocol UserDetailPresenterProtocol: AnyObject {
     func backtoUsers()
     func viewDidAppear()
 }
 
-protocol UserDetailViewProtocol: class, LoaderControlProtocol, AlertProtocol  {
+protocol UserDetailViewProtocol: AnyObject, LoaderControlProtocol, AlertProtocol {
     var presenter: (UserDetailPresenterProtocol & UserDetailInteractorOutputProtocol)? {get set}
     func showPosts(users: [Post])
     func showEmptyResults()
 }
 
-protocol UserDetailRouterProtocol: class {
+protocol UserDetailRouterProtocol: AnyObject {
     func backToUsers(from view: UIViewController)
 }

@@ -1,7 +1,7 @@
 import Foundation
 import UIKit
 
-protocol MainInteractorInputProtocol: class {
+protocol MainInteractorInputProtocol: AnyObject {
 
     var presenter: (MainPresenterProtocol & MainInteractorOutputProtocol)? {get set}
 
@@ -13,19 +13,19 @@ protocol MainInteractorOutputProtocol {
     func showEmptyResults()
 }
 
-protocol MainPresenterProtocol: class {
+protocol MainPresenterProtocol: AnyObject {
     func viewDidAppear()
     func goToUserDetail(userId: Int)
 }
 
-protocol MainViewProtocol: class {
+protocol MainViewProtocol: AnyObject {
     var presenter: (MainPresenterProtocol & MainInteractorOutputProtocol)? {get set}
 
     func showUsers(users: [User])
     func showEmptyResults()
 }
 
-protocol MainRouterProtocol: class {
+protocol MainRouterProtocol: AnyObject {
     func goToUserDetail(from view: UIViewController, with userId: Int)
 
 }

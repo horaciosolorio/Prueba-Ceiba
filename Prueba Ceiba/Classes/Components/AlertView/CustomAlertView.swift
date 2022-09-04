@@ -7,7 +7,7 @@
 
 import UIKit
 
-protocol CustomAlerViewDelegate: class {
+protocol CustomAlerViewDelegate: AnyObject {
     func viewAlertTaped(type: AlertType)
 }
 
